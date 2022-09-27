@@ -5,6 +5,7 @@ Train a custom CNN network for classification task and compare it's accuracy wit
 
 ## Requirements
 Python version > = 3.6
+
 PyTorch, Torchvision, matplotlib, NumPy, Pandas, PIL.
 
 ## Data
