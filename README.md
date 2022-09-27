@@ -40,6 +40,6 @@ There are a total of 24994 images of various sizes. They are split into train an
 
 
 ## Results
-|  | Custom network | ResNet 18 (finetuned) | ResNet18 (frozen convnet) |
+|  | Custom network | ResNet-18 (finetuned) | ResNet-18 (frozen convnet) |
 |---|--------|------------|---------------|
 |Accuracy (50 epochs)| 82.43% | 96.16% | 97.63%|
