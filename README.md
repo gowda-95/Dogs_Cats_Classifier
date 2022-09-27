@@ -1,12 +1,13 @@
-## Classify Dog vs Cats
+# Classify Dog vs Cats
 
 Train a custom CNN network for classification task and compare it's accuracy with that of ResNet-18 by using transfer learning.
 
 
-### Requirements
+## Requirements
+Python version > = 3.6
+PyTorch, Torchvision, matplotlib, NumPy, Pandas, PIL.
 
-
-### Data
+## Data
 
 The [CATS_DOGS.zip](https://drive.google.com/file/d/1fuFurVV8rcrVTAFPjhQvzGLNdnTi1jWZ/view) is about 774Mb compressed, it should be downloaded and placed in [data folder](https://github.com/gowda-95/Dogs_Cats_Classifier/tree/main/data).
 
@@ -37,7 +38,7 @@ There are a total of 24994 images of various sizes. They are split into train an
                 └── ... (9,372 files)</pre>
 
 
-### Results
+## Results
 |  | Custom network | ResNet 18 (finetuned) | ResNet18 (frozen convnet) |
 |---|--------|------------|---------------|
 |Accuracy (50 epochs)| 82.43% | 96.16% | 97.63%|
